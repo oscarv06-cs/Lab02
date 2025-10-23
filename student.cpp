@@ -2,7 +2,7 @@
 #include <string>
 #include <cstring>
 
-Student::Student(const char * const name, int perm) {
+Student::Student(const char * const name, int perm){
   this->setName(name);
   this->setPerm(perm);
 }

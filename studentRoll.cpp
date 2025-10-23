@@ -11,8 +11,7 @@ void StudentRoll::insertAtTail(const Student &s) {
   newer-> s = new Student(s);
   newer->next = NULL;
   if (head == NULL){
-    head = tail;
-    tail = newer;
+    head = tail = newer; 
   }
   else{
     tail->next = newer;
