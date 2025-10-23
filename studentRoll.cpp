@@ -1,6 +1,5 @@
 #include <string>
 #include "studentRoll.h"
-#include "student.h"
 
 StudentRoll::StudentRoll() {
   head = tail = NULL;
