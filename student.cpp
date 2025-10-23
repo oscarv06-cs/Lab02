@@ -4,7 +4,7 @@
 
 Student::Student(const char * const name, int perm) {
   this->setName(name);
-  this->setPerm(perm)
+  this->setPerm(perm);
 }
 
 int Student::getPerm() const {
@@ -47,7 +47,7 @@ Student & Student::operator=(const Student &right) {
   // fill in...
 
 
-  setPerm(right.getName());
+  setPerm(right.getPerm());
   setName(right.getName());
 
   // KEEP THE CODE BELOW THIS LINE
